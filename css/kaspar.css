@@ -704,3 +704,97 @@ header nav .form i {
 
 
 /* end stats section */
+
+
+/*start skillis section */
+
+.our-skillis {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+.our-skillis .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+    .our-skillis .container>div {
+        flex-basis: 45%;
+    }
+}
+
+.our-skillis .container>div>h3 {
+    margin: 0 0 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-skillis .container>div>p {
+    color: #777;
+    font-weight: normal;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.our-skillis .testimoials .content {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.our-skillis .testimoials .content img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+    .our-skillis .testimoials .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .our-skillis .testimoials .content img {
+        width: 100px;
+        border-radius: 50%;
+        margin: 0px auto 20px;
+    }
+}
+
+.our-skillis .testimoials .text {
+    line-height: 1.7;
+    border-bottom: 1px solid #ccc;
+}
+
+.our-skillis .testimoials .text p {
+    color: #777;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.our-skillis .testimoials .bullets {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.our-skillis .testimoials .bullets li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #a2a2a2;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.our-skillis .testimoials .bullets li.active {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+
+/* end skillis section */
