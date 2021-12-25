@@ -1033,3 +1033,97 @@
         }
     }
     /* end subscribe */
+    /* start contact us */
+    
+    .contact-us {
+        padding-top: var(--section-padding);
+        padding-bottom: var(--section-padding);
+    }
+    
+    .contact-us .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    @media (max-width:767px) {
+        .contact-us .content {
+            flex-direction: column;
+        }
+    }
+    
+    .contact-us .content form {
+        flex-basis: 70%;
+    }
+    
+    .contact-us .content form .contact-input {
+        display: block;
+        padding: 20px;
+        border: 2px solid #ccc;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .contact-us .content form .contact-input:focus {
+        outline: none;
+    }
+    
+    .contact-us .content form textarea.contact-input {
+        height: 200px;
+    }
+    
+    .contact-us .content form input[type="submit"] {
+        background: var(--main-color);
+        color: white;
+        border: none;
+        padding: 20px;
+        display: flex;
+        margin-left: auto;
+        cursor: pointer;
+    }
+    
+    .contact-us .content .info {
+        flex-basis: 25%;
+    }
+    
+    @media (max-width:767px) {
+        .contact-us .content .info {
+            order: -1;
+            text-align: center;
+        }
+    }
+    
+    .contact-us .content .info h4 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .contact-us .content .info .phone {
+        display: block;
+        color: #777;
+        margin-bottom: 10px;
+    }
+    
+    .contact-us .content .info h4:nth-of-type(2) {
+        margin-top: 90px;
+    }
+    
+    @media (max-width:767px) {
+        .contact-us .content .info h4:nth-of-type(2) {
+            margin-top: 20px;
+        }
+    }
+    
+    .contact-us .content .info address {
+        color: #777;
+        line-height: 2;
+    }
+    
+    @media (max-width:767px) {
+        .contact-us .content .info address {
+            color: #777;
+            line-height: 2;
+            margin-bottom: 20px;
+        }
+    }
+    /*end contact us */
